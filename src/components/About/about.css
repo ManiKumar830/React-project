@@ -1,0 +1,21 @@
+
+.about-container {
+    background-color: #0d0d0c;
+    min-height: 100vh;
+    padding: 20px;
+   
+}
+.about-text-container {
+    margin-top: 50px;
+}
+.about-text {
+    font-family: "Gill Sans", sans-serif;
+    color: #ffffff;
+    font-size: 15px;
+    margin-top: 10px;
+}
+@media screen and (min-width: 768px){
+    .about-text{
+        font-size: 20px;
+    }
+}

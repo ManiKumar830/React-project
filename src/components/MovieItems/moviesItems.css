@@ -1,0 +1,45 @@
+
+.movie-item-container {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+.image {
+    width: 90%;
+    height: 300px;
+    border-radius: 5px;
+}
+.title-text {
+    font-family: "Gill Sans", sans-serif;
+    color: #ffffff;
+    font-size: 17px;
+}
+.year-text {
+    font-family: "Gill Sans", sans-serif;
+    color: #ffffff;
+    font-size: 17px;
+    margin-top: 5px;
+}
+@media screen and (max-width: 576px) {
+    .movie-item-container{
+        width: 90%;
+    }
+}
+@media screen and (min-width: 768px) {
+    .movie-item-container{
+        width: 30%;
+    }
+    .title-text{
+        font-size: 20px;
+    }
+}
+.link {
+    text-decoration: none;
+    color: #ffffff;
+}
+.trigger-button {
+    background-color: transparent;
+    border: none;
+}

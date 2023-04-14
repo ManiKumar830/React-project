@@ -1,0 +1,32 @@
+.bg-container {
+    background-color: #0d0d0c;
+    min-height: 100vh;
+    padding: 20px;
+  }
+.ul-list-container {
+  width: 100%;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-left: 0px;
+}
+@media screen and (min-width: 768px) {
+    .bg-container{
+        padding: 50px;
+    }
+}
+.failure-text {
+  font-family: "Gill Sans", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+}
+.failure-container {
+  background-color: #0d0d0c;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
